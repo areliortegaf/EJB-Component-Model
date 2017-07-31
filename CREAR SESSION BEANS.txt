@@ -1,0 +1,97 @@
+Creamos un web Service:
+Click derecho al proyecto , New, Other, Web Service
+Next, nombramos el WebService
+Nombramos un paquete.
+Seleccionamos el recuadro: Implement WebServices asStateless SessionBean
+
+Deploy:
+Click derecho en el proyecto
+Build
+Click derecho en el priyecto
+Deploy
+Creara un archivo war que usara en el GlassFish Server
+Para verificar que se encuentre en el glassfish server
+Abrimos servicios en el meni izquierdo(donde estan las bds)
+Expandimos el nodo de glassfish
+Buscamos el nombre del proyecto.
+(Si todo salio correctamente ahy se debe encontrar.)
+Services->Servers->GlassFish->APLIcATIONS->PROYECTO
+----------------------------------------------------
+PRACTICA DOS
+------------------------------------------------------
+**CREAR UNA CLASE JAVA PARA LA INTERFACE REMOTA.
+NUEVO PROYECTO-> JAVA CLASS LIBRARY.
+Le damos un nombre.
+
+Creamos un proyecto java EE
+New->Project->JAVA EE->Enterprie Aplication
+Next->Nombre:xxx
+Next-> cree : EJB Module, Web Aplication Module.
+
+Despues de que se cree, damos click derecho en en Calculator-ejb.
+New->SessionBean
+Damos un nombre.
+Creamos un paquete.
+
+Seleccionamos Remote en proyect: y seleccionamos el proyecto al que pretenece.
+(Stateless checado)
+ 
+Se crearan automaticamente las clases que implementan la insterface.
+Buscar las interfaces y crear los metodos a usar.
+Buscar las clases que implementan los metodos e implemetarlos
+
+PARA LLENAR LAS CLASES/INTERFACES
+(EN EL PROYECTO-EJB
+	En la clase java que contiene.
+	Click derecho sobre la pantalla en blanco y seleccionar:
+	"INSERT CODE"
+	->add bissiness methods
+	Crea los metodos automaticamente.)
+
+Click derecho sobre el proyecto EE
+DEPLOY
+
+---------------------------------------------------------------
+**CREAR APLICACIN REMOTA QUE ACCEDA AL SESSION BEAN QUE CREAMOS 
+SELECCIONAMOS NEW pROJECT
+JAVA EE
+ENTERPRISE APLICATION CLIENT
+->NEXT->NOMBRAMOS EL PROYECTO
+->NEXT->FINISH
+EL IDE GENERA CODIGO Y UNA CLASE MAIN
+EN A CLASE MAIN(Source package)
+CLICK DERECHO AL FONDO, INSERT CODE.
+SELECCIONAMOS ENTERPRISE BEAN**
+bUSCAMOS EL PROYECTO CON ICONO DE BEAN.
+Expandimos el proyecto y seleccionamos Especificamente cual.
+Agrega codigo al proyecto
+y si preferimos podemos editarlo.
+
+Corremos el proyecto.
+CLEAN AND BUILD.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
